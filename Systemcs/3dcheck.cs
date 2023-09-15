@@ -11,7 +11,7 @@ var light = new Light() {
   LightType = LightType.point
   };
 var output = "@ /Type/test.fbx";
-Scene.Save (output, FileFormat.FBX 7500ASCII);
+Scene.Save (output, FileFormat.FBX 6100ASCII);
 delay(10000);
 FileStream fs = File.Open("@/home.py", FileMode.Open, FileAccess.Write, FileShare.None);
   
